@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.link{
+  margin:20px;
+  
+  
+}
+body{
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.active{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.allimages{
+  display: flex;
+  overflow-x: scroll;
+}
+.allimages::-webkit-scrollbar{
+display: none;
+}
+img{
+margin:10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* end point */
+/* netflix originals */
+/* https://api.themoviedb.org/3/discover/tv/?api_key=5d4dae0634daee0004fa94f7c36f6551&with_network=123 */
+
